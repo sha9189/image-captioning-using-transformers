@@ -1,0 +1,25 @@
+.ipynb_checkpoints
+__pycache__
+_checkpoints_backup
+z_*
+checkpoints/*.pth
+*.pptx
+
+#Automatically created files
+__pycache__
+.data
+.vscode
+.ipynb_checkpoints
+
+# All checkpoints except checkpoint breakdown
+checkpoints/*
+!checkpoints/checkpoint-breakdown
+
+# Remove folders not meant to be pushed
+extras
+pretrained_wts
+
+# Remove dataset captions
+train_captions*.txt
+val_captions*.txt
+val_images*.txt

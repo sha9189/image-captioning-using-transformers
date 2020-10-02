@@ -1,0 +1,13 @@
+name: transformer
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - cudatoolkit=10.1
+  - pytorch
+  - torchvision
+  - matplotlib
+  - spacy
+  - torchtext
